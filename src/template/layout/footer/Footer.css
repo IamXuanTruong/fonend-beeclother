@@ -1,0 +1,76 @@
+.footer {
+    width: 100%;
+    background-color: #fcf6e5;
+    padding: 40px 0px;
+}
+
+.main_footer {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.footer_main {
+    text-align: left;
+
+}
+
+.item_footer {
+    padding: 8px 0px;
+}
+
+.page_footer a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2E302F;
+    font-size: 17px;
+}
+
+.page_footer p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2E302F;
+}
+
+.name_footer {
+    width: 100%;
+    text-align: left;
+    padding: 30px 0px 25px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.name_footer a {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #2E302F;
+}
+
+.input_footer {
+    padding: 10px 0px;
+    width: 100%;
+    position: relative;
+}
+
+.input_footer input {
+    padding: 6px;
+    width: 100%;
+    border: 1px solid rgb(15, 14, 14);
+}
+
+.input_footer input:focus {
+    border: 2px solid black !important;
+}
+
+.button_footer {
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.button_footer button {
+    width: 100%;
+    padding: 6px;
+    background-color: #E7EEEA;
+}
+
+.button_footer button:hover {
+    background-color: #508f6b;
+}

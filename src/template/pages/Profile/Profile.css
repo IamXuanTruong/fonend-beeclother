@@ -1,0 +1,86 @@
+.profile_page {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.text_profile {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 4px;
+}
+
+.menu_profile {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 24px;
+}
+
+.menu_profile ul {
+    text-align: left;
+    padding: 10px;
+
+}
+
+.menu_profile ul li {
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+    font-size: 18px;
+
+}
+
+.menu_profile ul li:hover {
+    background-color: #f7fe90;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+
+
+}
+
+.image_profile i {
+    font-size: 200px;
+}
+
+.main_profile {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 24px;
+}
+
+.profile_user {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.update_image {
+    margin: 20px auto;
+}
+
+.user_file {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.update_file {
+    margin: 20px;
+    text-align: right;
+
+}
+
+.update_file button {
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.update_file button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.title_shop {
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+}
+
+.pagination-active {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 50%;
+    padding: 8px 12px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.previous-button,
+.next-button {
+    padding: 8px 12px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.pagination-disabled {
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.pagination-container i {
+    font-size: 18px;
+}
+
+.previous-button i {
+    transform: scaleX(-1);
+}
+
+.main_home {
+    padding: 10px 0px;
+}

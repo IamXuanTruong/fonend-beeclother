@@ -1,0 +1,102 @@
+.loginpage {
+    width: 40%;
+    margin: 50px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form_login {
+    width: 100%;
+    padding: 50px;
+    border-radius: 20px;
+    background: rgba(68, 66, 66, 0.1);
+}
+
+.form_login h4 {
+    font-size: 30px;
+}
+
+.type-input {
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.type-input input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid white;
+}
+
+::placeholder {
+    color: gray;
+}
+
+.button_submit {
+    width: 50%;
+    margin: 40px auto;
+
+}
+
+.button_submit button {
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to right, #b4697b, #add8e6);
+
+}
+
+.cant_member {
+    display: flex;
+    justify-content: center;
+}
+
+.error-message {
+    color: red;
+    text-align: left;
+}
+
+.icon_sign {
+    display: flex;
+    width: 30%;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+.item_icon {
+    font-size: 30px;
+}
+
+.item_icon a {
+    color: black;
+}
+
+.type-name {
+    display: flex;
+    padding: 20px;
+}
+
+.firt_name input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid white;
+}
+
+.modal-signin{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+}

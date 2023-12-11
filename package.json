@@ -1,0 +1,53 @@
+{
+  "name": "bee-clothes-fontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@react-navigation/native": "^6.1.8",
+    "@react-navigation/native-stack": "^6.9.14",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "acorn": "^8.10.0",
+    "axios": "^1.5.1",
+    "formik": "^2.4.5",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.7.1",
+    "js-alert": "^2.0.0",
+    "owl.carousel": "^2.3.4",
+    "react": "^18.0.2",
+    "react-dom": "^17.0.2",
+    "react-elastic-carousel": "^0.11.5",
+    "react-loader-spinner": "^5.4.5",
+    "react-paginate": "^8.2.0",
+    "react-router-dom": "^6.17.0",
+    "react-scripts": "^3.0.1",
+    "react-toastify": "^9.1.3",
+    "sweetalert2": "^11.7.32",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

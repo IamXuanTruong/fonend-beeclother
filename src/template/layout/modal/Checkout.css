@@ -1,0 +1,129 @@
+.modal-checkout{
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 14px;
+    
+}
+.modal-checkout p{
+    font-family: 'Arimo', sans-serif;
+
+}
+.Checkout{
+    width: 800px;
+    height: 520px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding : 32px
+}
+.Checkout .close-checkout{
+    display: inline-block;
+    font-size: 19px;
+    cursor: pointer;
+}
+.Checkout .notify{
+    text-align: center;
+    
+}
+.Checkout .notify .text-sm{
+    font-size: 15px;
+}
+.Checkout .notify i{
+    font-size: 22px!important;
+    padding-right: 10px;
+}
+.Checkout .row{
+    padding: 0 15px;
+}
+.name-logo-bank{
+    display: flex;
+    padding: 10px;
+    padding: 25px 0px;
+}
+.logo-bank {
+    margin-right: 12px;
+}
+.logo-bank img{
+    width: 30px;
+}
+.Checkout p{
+    margin: 0;
+}
+
+p.content-infor ,.btn-copy{
+    font-weight: 700;
+}
+
+p.label-infor, .btn-copy {
+    color: #555;
+}
+
+.infor-bank{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 0;
+}
+.Checkout .btn-copy{
+    border-radius: 0.375rem;
+    background-color: #16ab651a;
+    border: 0 solid #e5e7eb;
+    padding: 4px 8px;
+    font-size: .75rem
+}
+.Checkout .btn-copy:focus{
+    box-shadow: 0px 0px 0px 3px rgb(134 239 172);
+    transform: scale(1.05); 
+    transition: transform 0.2s ease;
+}
+.Checkout .btn-copy:active{
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 197 94/var(--tw-bg-opacity));
+}
+.Checkout .footer-popup{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.Checkout .note{
+    color : #555;
+    padding-top: 15px;
+}
+.Checkout .button-canel{
+    display: flex;
+    width: 38%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.Checkout .button-canel button{
+    font-weight: 600;
+    font-size: .75rem;
+    line-height: 1rem;
+    border-radius: 5px;
+    --tw-border-opacity: 1;
+    border-color: rgb(156 163 175/var(--tw-border-opacity));
+    border-style: solid;
+    padding: 0.5rem 1.5rem;
+    -tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+}
+
+.Checkout .button-canel button:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246/var(--tw-bg-opacity));
+}
+.Checkout .btn-copy:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(220 252 231/var(--tw-bg-opacity));
+}

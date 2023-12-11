@@ -1,0 +1,86 @@
+.modal-addtocart{
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.AddtoCart{
+    width: 950px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding : 32px
+}
+.modal-addtocart .row{
+    height: 100%;
+    align-items: center;
+}
+.img-product{
+    width: 400px;
+}
+.img-product>img{
+    width: 100%;
+}
+.lable{
+    margin: 0;
+}
+
+.product-infor{
+    height: 500px;
+    padding: 24px
+}
+.name-product,.sellprice,.size-label,.quantity-product{
+    padding-top: 20px;
+}
+.AddToCart{
+    padding: 20px 0px;
+}
+
+.option-lable{
+    height: 55px;
+}
+
+.border-option{
+    margin: 10px 15px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(173, 119, 119);
+    border: 1px solid rgb(180, 180, 180);
+
+
+}
+input[type="radio"]{
+    opacity: 0;
+    width: 0px;
+}
+input[type="radio"]:checked ~ .border-option{
+    background-color: #e98686;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+    transition-property: all;
+}
+input[type="number"]{
+    width: 200px;
+}
+
+.close-button{
+    text-align: right;
+}
+.close-button>button{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
